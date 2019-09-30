@@ -14,7 +14,7 @@ driver.implicitly_wait(3)
 file = open("e:/abc.txt", "r")
 try:
     la = file.readlines()
-    print("a")
+
     for i in range(len(la)):
         two = la[i].rstrip().split(";")
         name = two[0]
